@@ -1,25 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <body>
+    <div className="pic">
+      <img width="500" 
+      alt="Chinese fool"
+      src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.myrecipes.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2F1502987547%2FGettyImages-545286388.jpg%3Fitok%3DkGrhiiMo&w=400&c=sc&poi=face&q=85"></img>
+    
+      <h1>HELLO! 
+      
+          Chinese food.</h1>
     </div>
+   </body>
+   
+  
   );
 }
 
